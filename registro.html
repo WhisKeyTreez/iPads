@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h2 achedos>Registrate!</h2>
+    <form id="registro">
+        <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+        <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required>
+        <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required>
+      <label for="turno">Turno:</label>
+        <select id="turno" name="turno" required>
+            <option value="mañana">Mañana</option>
+            <option value="tarde">Tarde</option>
+        </select>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" name="contrasena" required>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <form id="formulario" action="procesar_bitacora.php" method="post">
+        <fieldset>
+            <legend>Bitacora iPad</legend>
+            <label for="problema">Algun problema?:</label>
+        <select id="problema" name="problema" required>
+            <option value="caida">El ipad se callo</option>
+            <option value="rasguno">el iPad tiene un rasguno</option>
+            <option value="internet">No funciona el internet</option>
+            <option value="pantalla">La pantalla no funciona</option>
+            <option value="bateria">La bateria no funciona</option>
+            <option value="otros">Otros</option>
+        </select>
+            <label for="descripcion">Descripcion del problema:</label>
+            <textarea id="descripcion" name="descripcion" rows="4" cols="50" required></textarea>
+            <br>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <br>
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required>
+            <br>
+            <button type="submit">Enviar</button>
+
+
+
+
+
+
+
+
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

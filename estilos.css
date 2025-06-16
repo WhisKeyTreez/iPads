@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(to right, #3714ffbb, #6c539b);
+  font-family: popings, 'Roboto', sans-serif;
+}
+.contenedor  {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #a6a6ee;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px #b6e0fe55;
+  padding: 32px 24px;
+}
+img {
+  width: 100px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+}
+label {
+  display: block;
+  margin: 14px 0 6px 0;
+  font-weight: bold;
+}
+input, select {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #b6e0fe;
+  font-size: 1em;
+}
+button {
+  background: #0099cc;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+
+h2 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 24px;
+  font-weight: 800;
+}
+
+#formulario {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #a6a6ee;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px #b6e0fe55;
+  padding: 32px 24px;
+}
